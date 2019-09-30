@@ -1,0 +1,155 @@
+body {
+    width:675px;
+    font-family:Catamaran,sans-serif;
+    text-align:center;
+
+}
+
+header {
+    color:#fff;
+    width:675px;
+    height:auto;
+}
+#background {
+    background: url(/DgtlCrfts/img/atl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img.logo{
+    width:111px;
+    height:auto;
+    padding-top:30px;
+}
+.navigation ul {
+    margin-left:300px;
+}
+.navigation ul li{
+    list-style-type: none;
+    display:inline-flex;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    padding-top:15px;
+    padding-left:none;
+    text-align:right;
+}
+
+.navigation li a{
+    margin-right:1em;
+    text-decoration:none;
+    color:rgba(255, 255, 255, 0.5);
+    font-size:8px;
+    font-weight:200;
+    text-transform: uppercase;
+    letter-spacing: .7;
+}
+
+.navigationFooter ul li{
+    list-style-type: none;
+    display:inline-flex;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    padding-top:15px;
+    padding-right:18px;
+    text-align:right;
+}
+
+.navigationFooter li a{
+    margin-right:1em;
+    text-decoration:none;
+    color:rgba(255, 255, 255, 0.5);
+    font-size:12px;
+    font-weight:200;
+    text-transform: uppercase;
+    letter-spacing: .7;
+}
+
+h1 {
+    font-weight: 100;
+    font-size:42px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+h2 {
+    font-weight:100;
+    color:rgba(0,0,0, 0.7);
+}
+
+.elements h2 {
+    margin:0;
+}
+.intro {
+    padding-top:15px;
+    padding-bottom:20px;
+}
+
+.at {
+    font-size:48px;
+    font-weight:100;
+    border: 6px solid rgb(255, 115, 0);
+    border-radius:50%;
+    width:60%;
+    display:inline-block;
+}
+
+.hashtag {
+    font-size:48px;
+    font-weight:100;
+    border: 6px solid rgb(102, 187, 62);
+    border-radius:50%;
+    width:60%;
+    display:inline-block;
+}
+
+.money{
+    font-size:48px;
+    font-weight:100;
+    border: 6px solid rgb(3, 120, 255);
+    border-radius:50%;
+    width:60%;
+    display:inline-block;
+}
+p {
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    letter-spacing: .8;
+    padding-bottom:45px;
+    margin:0;
+    line-height:1;
+}
+
+.elements {
+    margin-left:125px;
+}
+.elements p {
+    color:rgba(0,0,0, 0.7);
+    font-size:10px;
+    margin: 0 15px;
+
+}
+img.arrow {
+    width:20px;
+}
+.column {
+    width:25%;
+    float:left;
+    margin:0;
+}
+
+footer {
+    background-color: #595959;
+    position:fixed;
+    bottom:0;
+    width:675px;
+}
+.navigationFooter ul {
+    margin:0;
+}
+.copyright {
+    font-size:9px;
+    font-weight:100;
+    padding-bottom:5px;
+    color:rgba(255, 255, 255, 0.3);
+}
